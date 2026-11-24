@@ -1,6 +1,3 @@
-# Panelless
-A desktop control panel for Linux servers (built with FASTPANEL-style hosting servers in mind).
-
 # Server Control Panel (over SSH)
 
 A desktop control panel for Linux servers (built with FASTPANEL-style hosting servers in mind).
@@ -73,4 +70,4 @@ If this tool saved you time, you can support its development: **https://paypal.m
 
 ## License
 
-MIT - see [LICENSE](LICENSE).
+Proprietary License - see [LICENSE](LICENSE).

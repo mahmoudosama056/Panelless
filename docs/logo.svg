@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2d3340"/>
+      <stop offset="1" stop-color="#12151a"/>
+    </linearGradient>
+    <linearGradient id="ac" gradientUnits="userSpaceOnUse" x1="176" y1="190" x2="360" y2="350">
+      <stop offset="0" stop-color="#7cc0ff"/>
+      <stop offset="1" stop-color="#3d82f0"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
+  <rect x="16.5" y="16.5" width="479" height="479" rx="111.5" fill="none" stroke="#4c9aff" stroke-opacity="0.35"/>
+  <!-- the missing "panel": a dashed outline -->
+  <rect x="100" y="100" width="312" height="312" rx="44" fill="none" stroke="#4c9aff" stroke-opacity="0.38"
+        stroke-width="10" stroke-dasharray="20 16" stroke-linecap="round"/>
+  <!-- terminal prompt -->
+  <path d="M176 202 L264 268 L176 334" fill="none" stroke="url(#ac)" stroke-width="36"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M292 340 H356" fill="none" stroke="url(#ac)" stroke-width="36" stroke-linecap="round"/>
+  <!-- status LED -->
+  <circle cx="368" cy="152" r="14" fill="#5fd38d"/>
+  <circle cx="368" cy="152" r="26" fill="#5fd38d" fill-opacity="0.18"/>
+</svg>

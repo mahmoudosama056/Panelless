@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="docs/logo.png" width="120" alt="Panelless"> Panelless
+# <img src="docs/logo.svg" width="120" alt="Panelless"> Panelless
 
 ### A server control panel, without a panel.
 
